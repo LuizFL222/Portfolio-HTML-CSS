@@ -22,7 +22,11 @@ header {
   display: flex;
   justify-content: center;
   background-color: #e8c304;
-  padding: 10px;
+  padding: 30px;
+}
+h1{
+  font-size: 50px;
+  font-family: 'Krona One', sans-serif;
 }
 
 main {
@@ -48,19 +52,19 @@ section {
   max-width: 594px;
 }
 
-h1 {
+h2 {
   margin-bottom: 40px;
   font-size: 2.25rem;
   line-height: 56px;
   font-family: 'Krona One', sans-serif;
 }
 
-h1 span {
+h2 span {
   cursor: pointer;
   transition: color 0.3s;
   color: #e8c304;
 }
-h1 span:hover {
+h2 span:hover {
   color: #5805e8;
 }
 
@@ -101,7 +105,7 @@ footer {
 }
 footer p {
   margin: 0;
-  color: black;
+  color: white;
   font-weight: 500;
 }
 
