@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+img {
+  width: 300px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #e8c304;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+main {
+  display: flex;
+  margin: auto;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  word-spacing: 1px;
+  gap: 40px;
+}
+
+main .foto img {
+  width: 438px;
+  height: 450px;
+  position: absolute;
+  z-index: 1;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 10%;
+}
+section {
+  max-width: 594px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 2.25rem;
+  line-height: 56px;
+  font-family: 'Krona One', sans-serif;
+}
+
+h1 span {
+  cursor: pointer;
+  transition: color 0.3s;
+  color: #e8c304;
+}
+h1 span:hover {
+  color: #5805e8;
+}
+
+p {
+  margin-bottom: 51px;
+  text-align: justify;
+  letter-spacing: 1.5px;
+  overflow-wrap: break-word;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: #e8c304;
+  transition: transform 1s, background-color 0.3s;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  width: 280px;
+  height: 79px;
+  border-radius: 16px;
+}
+button:hover {
+  transform: scale(1.03);
+  background-color: #5805e8;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  background-color: rgba(255, 255, 255, 0.1);
+  
+}
+footer p {
+  margin: 0;
+  color: black
+  font-weight: 500;
+}
+
+.botao {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foto {
+  position: relative;
+}
+
+.borda {
+  background-color: black;
+  border: 3px solid #e8c304;
+  border-radius: 10%;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+  width: 438px;
+  height: 450px;
+  transition: border 0.3s;
+  cursor: pointer;
+}
+.borda:hover {
+  border: 3px solid #5805e8;
+}
