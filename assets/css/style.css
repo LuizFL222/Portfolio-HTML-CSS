@@ -23,13 +23,11 @@ header {
   justify-content: center;
   background-color: #e8c304;
   padding: 10px;
-  margin-bottom: 100px;
 }
 
 main {
   display: flex;
   margin: auto;
-  margin-bottom: 40px;
   justify-content: center;
   align-items: center;
   text-align: left;
